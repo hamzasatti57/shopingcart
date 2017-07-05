@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E7E643B-E705-4B68-9C19-26C87D5CB2FB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="02_categories.aspx" />
+    <Content Include="03_products.aspx" />
+    <Content Include="04_single_product.aspx" />
+    <Content Include="05_register.aspx" />
+    <Content Include="06_shopping_cart.aspx" />
+    <Content Include="07_login_register.aspx" />
+    <Content Include="08_Shipping_Address.aspx" />
+    <Content Include="09_payment.aspx" />
+    <Content Include="10_summary.aspx" />
+    <Content Include="11_finish.aspx" />
+    <Content Include="12_blog.aspx" />
+    <Content Include="13_single-blog-post.aspx" />
+    <Content Include="14_contact.aspx" />
+    <Content Include="404.aspx" />
+    <Content Include="about.aspx" />
+    <Content Include="css\components.css" />
+    <Content Include="css\media.css" />
+    <Content Include="index.aspx" />
+    <Content Include="images\about\about-banner.jpg" />
+    <Content Include="images\about\about-post-1.jpg" />
+    <Content Include="images\about\about-post-2.jpg" />
+    <Content Include="images\add-banner-2.jpg" />
+    <Content Include="images\blog\author-icon.png" />
+    <Content Include="images\blog\badge-icon.png" />
+    <Content Include="images\blog\badge-img-2.jpg" />
+    <Content Include="images\blog\badge-img.jpg" />
+    <Content Include="images\blog\blog-post-2.png" />
+    <Content Include="images\blog\calender-icon.png" />
+    <Content Include="images\blog\comments-icon.png" />
+    <Content Include="images\blog\music-icon.png" />
+    <Content Include="images\blog\picture-icon.png" />
+    <Content Include="images\blog\post-thumbnail-1.jpg" />
+    <Content Include="images\blog\post-thumbnail-2.jpg" />
+    <Content Include="images\blog\slider-icon.png" />
+    <Content Include="images\blog\slider-image.png" />
+    <Content Include="images\blog\video-icon.png" />
+    <Content Include="images\blog\widget-latest-pos-1.png" />
+    <Content Include="images\blog\widget-latest-pos-2.png" />
+    <Content Include="images\blog\widget-latest-pos-3.png" />
+    <Content Include="images\blog\widget-recent-post-1.jpg" />
+    <Content Include="images\blog\widget-recent-post-2.jpg" />
+    <Content Include="images\blog\widget-recent-post-3.jpg" />
+    <Content Include="images\cart-hover-1.png" />
+    <Content Include="images\cart-hover-2.png" />
+    <Content Include="images\category\cat-img-1.jpg" />
+    <Content Include="images\category\cat-img-10.jpg" />
+    <Content Include="images\category\cat-img-11.jpg" />
+    <Content Include="images\category\cat-img-12.jpg" />
+    <Content Include="images\category\cat-img-2.jpg" />
+    <Content Include="images\category\cat-img-3.jpg" />
+    <Content Include="images\category\cat-img-4.jpg" />
+    <Content Include="images\category\cat-img-5.jpg" />
+    <Content Include="images\category\cat-img-6.jpg" />
+    <Content Include="images\category\cat-img-7.jpg" />
+    <Content Include="images\category\cat-img-8.jpg" />
+    <Content Include="images\category\cat-img-9.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\featured\featured-1.jpg" />
+    <Content Include="images\featured\featured-2.jpg" />
+    <Content Include="images\featured\featured-3.jpg" />
+    <Content Include="images\featured\featured-4.jpg" />
+    <Content Include="images\featured\featured-5.jpg" />
+    <Content Include="images\featured\featured-6.jpg" />
+    <Content Include="images\featured\featured-7.jpg" />
+    <Content Include="images\featured\featured-8.jpg" />
+    <Content Include="images\footer\fb-1.jpg" />
+    <Content Include="images\footer\fb-2.jpg" />
+    <Content Include="images\footer\fb-3.jpg" />
+    <Content Include="images\footer\fb-4.jpg" />
+    <Content Include="images\footer\fb-5.jpg" />
+    <Content Include="images\footer\fb-6.jpg" />
+    <Content Include="images\footer\fb-7.jpg" />
+    <Content Include="images\footer\fb-8.jpg" />
+    <Content Include="images\footer\payment-getway-icon.png" />
+    <Content Include="images\icon\cart-icon.png" />
+    <Content Include="images\icon\close-icon.png" />
+    <Content Include="images\icon\dropdown-arrow.png" />
+    <Content Include="images\icon\g-plus-hover.png" />
+    <Content Include="images\icon\g-plus.png" />
+    <Content Include="images\icon\location-icon.png" />
+    <Content Include="images\icon\mail-icon.png" />
+    <Content Include="images\icon\map-bg.png" />
+    <Content Include="images\icon\next-hover.html" />
+    <Content Include="images\icon\next.html" />
+    <Content Include="images\icon\phone-icon.png" />
+    <Content Include="images\icon\prev-hover.html" />
+    <Content Include="images\icon\prev.html" />
+    <Content Include="images\icon\qrcode-hover.png" />
+    <Content Include="images\icon\qrcode.png" />
+    <Content Include="images\icon\search-icon.png" />
+    <Content Include="images\icon\shipping-icon.png" />
+    <Content Include="images\icon\stars-bg.png" />
+    <Content Include="images\icon\support-icon.png" />
+    <Content Include="images\icon\top-seller-icon.png" />
+    <Content Include="images\load.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\look-book\look-1.jpg" />
+    <Content Include="images\look-book\look-2.jpg" />
+    <Content Include="images\look-book\look-3.jpg" />
+    <Content Include="images\look-book\look-4.jpg" />
+    <Content Include="images\look-book\look-5.jpg" />
+    <Content Include="images\look-book\look-book-slide-1.jpg" />
+    <Content Include="images\mega-menu\new-collection-2.png" />
+    <Content Include="images\mega-menu\new-collection-3.png" />
+    <Content Include="images\mega-menu\new-collection.png" />
+    <Content Include="images\page-header-bg.png" />
+    <Content Include="images\partner\partner-1.png" />
+    <Content Include="images\partner\partner-2.png" />
+    <Content Include="images\partner\partner-3.png" />
+    <Content Include="images\partner\partner-4.png" />
+    <Content Include="images\recent-post-shadow.png" />
+    <Content Include="images\register\register-user.png" />
+    <Content Include="images\section-header-bg.png" />
+    <Content Include="images\shadow.png" />
+    <Content Include="images\single-product\add-banner.png" />
+    <Content Include="images\single-product\girls.png" />
+    <Content Include="images\single-product\man.png" />
+    <Content Include="images\single-product\product-large-1.jpg" />
+    <Content Include="images\single-product\product-large-2.jpg" />
+    <Content Include="images\single-product\product-large-3.jpg" />
+    <Content Include="images\single-product\product-thumb-1.jpg" />
+    <Content Include="images\single-product\product-thumb-2.jpg" />
+    <Content Include="images\single-product\product-thumb-3.jpg" />
+    <Content Include="images\slider\shadow.png" />
+    <Content Include="images\slider\slide-1.jpg" />
+    <Content Include="images\slider\slide-2.jpg" />
+    <Content Include="images\slider\slide-3.jpg" />
+    <Content Include="images\slider\slider-box-title.png" />
+    <Content Include="images\summary\gucci-icon.png" />
+    <Content Include="images\summary\summary-1.png" />
+    <Content Include="images\summary\summary-2.png" />
+    <Content Include="images\summary\summary-3.png" />
+    <Content Include="images\summary\summary-4.png" />
+    <Content Include="images\summary\summary-5.png" />
+    <Content Include="js\functions.js" />
+    <Content Include="libraries\animate\animate.min.css" />
+    <Content Include="libraries\bootstrap\bootstrap.min.css" />
+    <Content Include="libraries\bootstrap\bootstrap.min.js" />
+    <Content Include="libraries\expanding-search\modernizr.custom.js" />
+    <Content Include="libraries\flexslider\flexslider.css" />
+    <Content Include="libraries\flexslider\fonts\flexslider-icon.html" />
+    <Content Include="libraries\flexslider\jquery.flexslider-min.js" />
+    <Content Include="libraries\fonts\font-awesome.min.css" />
+    <Content Include="libraries\fonts\fontawesome-webfonte0a5.svg" />
+    <Content Include="libraries\fuelux\images\ui-bg_diagonals-thick_18_b81900_40x40.html" />
+    <Content Include="libraries\fuelux\images\ui-bg_diagonals-thick_20_666666_40x40.html" />
+    <Content Include="libraries\fuelux\images\ui-bg_flat_10_000000_40x100.html" />
+    <Content Include="libraries\fuelux\images\ui-bg_glass_100_fdf5ce_1x400.html" />
+    <Content Include="libraries\fuelux\images\ui-bg_glass_65_ffffff_1x400.html" />
+    <Content Include="libraries\fuelux\images\ui-bg_highlight-soft_75_ffe45c_1x100.html" />
+    <Content Include="libraries\fuelux\images\ui-icons_222222_256x240.html" />
+    <Content Include="libraries\fuelux\images\ui-icons_228ef1_256x240.html" />
+    <Content Include="libraries\fuelux\images\ui-icons_ef8c08_256x240.html" />
+    <Content Include="libraries\fuelux\images\ui-icons_ffd27a_256x240.html" />
+    <Content Include="libraries\fuelux\images\ui-icons_ffffff_256x240.html" />
+    <Content Include="libraries\fuelux\jquery-ui.min.css" />
+    <Content Include="libraries\fuelux\jquery-ui.min.js" />
+    <Content Include="libraries\fuelux\query-ui.min.html" />
+    <Content Include="libraries\gmap\jquery.gmap.min.js" />
+    <Content Include="libraries\jquery.animateNumber.min.js" />
+    <Content Include="libraries\jquery.appear.js" />
+    <Content Include="libraries\jquery.easing.min.js" />
+    <Content Include="libraries\jquery.knob.js" />
+    <Content Include="libraries\jquery.magnific-popup.min.js" />
+    <Content Include="libraries\jquery.min.js" />
+    <Content Include="libraries\magnific-popup.css" />
+    <Content Include="libraries\masonry.pkgd.min.js" />
+    <Content Include="libraries\owl-carousel\owl.carousel.css" />
+    <Content Include="libraries\owl-carousel\owl.carousel.min.js" />
+    <Content Include="libraries\owl-carousel\owl.theme.css" />
+    <Content Include="libraries\wow.min.js" />
+    <Content Include="look-book.aspx" />
+    <Content Include="shortcodes.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="02_categories.aspx.cs">
+      <DependentUpon>02_categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="02_categories.aspx.designer.cs">
+      <DependentUpon>02_categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03_products.aspx.cs">
+      <DependentUpon>03_products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03_products.aspx.designer.cs">
+      <DependentUpon>03_products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="04_single_product.aspx.cs">
+      <DependentUpon>04_single_product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="04_single_product.aspx.designer.cs">
+      <DependentUpon>04_single_product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="05_register.aspx.cs">
+      <DependentUpon>05_register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="05_register.aspx.designer.cs">
+      <DependentUpon>05_register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="06_shopping_cart.aspx.cs">
+      <DependentUpon>06_shopping_cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="06_shopping_cart.aspx.designer.cs">
+      <DependentUpon>06_shopping_cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="07_login_register.aspx.cs">
+      <DependentUpon>07_login_register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="07_login_register.aspx.designer.cs">
+      <DependentUpon>07_login_register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="08_Shipping_Address.aspx.cs">
+      <DependentUpon>08_Shipping_Address.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="08_Shipping_Address.aspx.designer.cs">
+      <DependentUpon>08_Shipping_Address.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="09_payment.aspx.cs">
+      <DependentUpon>09_payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="09_payment.aspx.designer.cs">
+      <DependentUpon>09_payment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="10_summary.aspx.cs">
+      <DependentUpon>10_summary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="10_summary.aspx.designer.cs">
+      <DependentUpon>10_summary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="11_finish.aspx.cs">
+      <DependentUpon>11_finish.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="11_finish.aspx.designer.cs">
+      <DependentUpon>11_finish.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="12_blog.aspx.cs">
+      <DependentUpon>12_blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="12_blog.aspx.designer.cs">
+      <DependentUpon>12_blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="13_single-blog-post.aspx.cs">
+      <DependentUpon>13_single-blog-post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="13_single-blog-post.aspx.designer.cs">
+      <DependentUpon>13_single-blog-post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="14_contact.aspx.cs">
+      <DependentUpon>14_contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="14_contact.aspx.designer.cs">
+      <DependentUpon>14_contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="look-book.aspx.cs">
+      <DependentUpon>look-book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="look-book.aspx.designer.cs">
+      <DependentUpon>look-book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LuxuryShop.Master.cs">
+      <DependentUpon>LuxuryShop.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LuxuryShop.Master.designer.cs">
+      <DependentUpon>LuxuryShop.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shortcodes.aspx.cs">
+      <DependentUpon>shortcodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shortcodes.aspx.designer.cs">
+      <DependentUpon>shortcodes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LuxuryShop.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6879/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

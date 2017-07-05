@@ -1,0 +1,32 @@
+D:\Course\My Projets\Project\Project\bin\Project.dll
+D:\Course\My Projets\Project\Project\bin\Project.pdb
+D:\Course\My Projets\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Course\My Projets\Project\Project\obj\Debug\Project.dll
+D:\Course\My Projets\Project\Project\obj\Debug\Project.pdb
+D:\Hamza\study\Project 1\Project\bin\Project.dll
+D:\Hamza\study\Project 1\Project\bin\Project.pdb
+D:\Hamza\study\Project 1\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Hamza\study\Project 1\Project\obj\Debug\Project.dll
+D:\Hamza\study\Project 1\Project\obj\Debug\Project.pdb
+D:\Hamza\study\Project\Project 1\Project\bin\Project.dll
+D:\Hamza\study\Project\Project 1\Project\bin\Project.pdb
+D:\Hamza\study\Project\Project 1\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Hamza\study\Project\Project 1\Project\obj\Debug\Project.dll
+D:\Hamza\study\Project\Project 1\Project\obj\Debug\Project.pdb
+D:\Hamza\study\Project\Project\Project\bin\Project.dll
+D:\Hamza\study\Project\Project\Project\bin\Project.pdb
+D:\Hamza\study\Project\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Hamza\study\Project\Project\Project\obj\Debug\Project.dll
+D:\Hamza\study\Project\Project\Project\obj\Debug\Project.pdb
+D:\Course\Project\Project\Project\bin\Project.dll
+D:\Course\Project\Project\Project\bin\Project.pdb
+D:\Course\Project\Project\Project\obj\Debug\Project.dll
+D:\Course\Project\Project\Project\obj\Debug\Project.pdb
+D:\Course\Project\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+D:\Course\Project\Project\Project\bin\Project.dll.config
+E:\Course\Project\Shopping Cart\Project\Project\bin\Project.dll.config
+E:\Course\Project\Shopping Cart\Project\Project\bin\Project.dll
+E:\Course\Project\Shopping Cart\Project\Project\bin\Project.pdb
+E:\Course\Project\Shopping Cart\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+E:\Course\Project\Shopping Cart\Project\Project\obj\Debug\Project.dll
+E:\Course\Project\Shopping Cart\Project\Project\obj\Debug\Project.pdb
